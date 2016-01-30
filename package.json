@@ -1,0 +1,27 @@
+{
+  "name": "Transmission-ModernUI",
+  "version": "1.0.0",
+  "description": "New Design of Transmission's Web UI",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower install --allow-root --force-latest",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhanghaowx/Transmission-ModernUI.git"
+  },
+  "keywords": [
+    "transmission",
+    "ui"
+  ],
+  "author": "Hao Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanghaowx/Transmission-ModernUI/issues"
+  },
+  "homepage": "https://github.com/zhanghaowx/Transmission-ModernUI",
+  "dependencies": {
+    "bower": "^1.7.7"
+  }
+}
