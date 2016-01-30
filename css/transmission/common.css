@@ -454,9 +454,8 @@ div#speed-info i.fa {
 div.zoneUpload {
     position: relative;
     height: 275px;
-    margin-top: -275px;
     padding-top: 50px;
-    opacity: 0;
+    display: none;
     z-index: -999;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -466,7 +465,7 @@ div.zoneUpload {
 div.zoneUpload.active {
     margin-top: 0;
     z-index: 0;
-    opacity: 1;
+    display: block;
 }
 
 div.dropZone {
